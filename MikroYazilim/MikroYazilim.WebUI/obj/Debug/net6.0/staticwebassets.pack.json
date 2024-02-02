@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\0000513_buzdolabi-c9d0a01c-1d70-4e95-80c1-93d62d60fb1b.png",
+      "PackagePath": "staticwebassets\\images\\products\\0000513_buzdolabi-c9d0a01c-1d70-4e95-80c1-93d62d60fb1b.png"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\Süpürge-24652471-370c-48c8-8c7b-a83a0e5d99bf.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Süpürge-24652471-370c-48c8-8c7b-a83a0e5d99bf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\TV-4220184a-7e80-4e58-af47-c241fb756ee9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\TV-4220184a-7e80-4e58-af47-c241fb756ee9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\balkon-mobilyalari-da0cbd6f-4fc1-47ed-bf44-40302315a4e8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\balkon-mobilyalari-da0cbd6f-4fc1-47ed-bf44-40302315a4e8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\bmv-c8d0b8b8-8b06-4868-bea9-b859226cfd9a.png",
+      "PackagePath": "staticwebassets\\images\\products\\bmv-c8d0b8b8-8b06-4868-bea9-b859226cfd9a.png"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\bulaşık makinası-075abb1a-2205-411f-8b35-4560e3ffad3e.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\bulaşık makinası-075abb1a-2205-411f-8b35-4560e3ffad3e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\kilim-yemek-odasi-takimlari-bf898f7a-2cc5-424c-923c-9cc0e19f8a3c.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\kilim-yemek-odasi-takimlari-bf898f7a-2cc5-424c-923c-9cc0e19f8a3c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\merdecedes-bb76d936-d36b-4f16-9d25-ce0780ae7b1e.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\merdecedes-bb76d936-d36b-4f16-9d25-ce0780ae7b1e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\oturma grubu-01c95ca5-fb6c-48bd-bd80-f3f9c962dd8f.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\oturma grubu-01c95ca5-fb6c-48bd-bd80-f3f9c962dd8f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\oturma odası-8ff86121-3100-4875-b6a7-5d209f9e5731.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\oturma odası-8ff86121-3100-4875-b6a7-5d209f9e5731.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\yatak odası-56ea8e8c-33d4-45e1-b2cf-14ba7e898520.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\yatak odası-56ea8e8c-33d4-45e1-b2cf-14ba7e898520.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\products\\Çamaşır makinesi-ac91d25e-256e-4e00-99da-e0750e068ec4.png",
+      "PackagePath": "staticwebassets\\images\\products\\Çamaşır makinesi-ac91d25e-256e-4e00-99da-e0750e068ec4.png"
+    },
+    {
+      "Id": "C:\\Users\\Kerem\\source\\repos\\MikroYazilim\\MikroYazilim.WebUI\\wwwroot\\images\\resimyok.png",
+      "PackagePath": "staticwebassets\\images\\resimyok.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MikroYazilim.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MikroYazilim.WebUI.props",
+      "PackagePath": "build\\MikroYazilim.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MikroYazilim.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\MikroYazilim.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MikroYazilim.WebUI.props",
+      "PackagePath": "buildTransitive\\MikroYazilim.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,111 @@
+﻿@using MikroYazilim.WebUI.Extensions;
+<html>
+<head>
+	<title>Mikro Yazilim Sitesi</title>
+
+	<meta name="description" content="Mülakat için yapılan MVC web projesi">
+	<meta name="keywords" content="HTML, CSS, JavaScript, Jquery, MVC, .Net, Asp.Net, MikroYazilim">
+	<meta name="author" content="Bahriye Başer">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<style>
+	label.required:after {
+		content: "*\00a0";
+		color: red;
+		margin-left: 2px;
+	}
+</style>
+
+<header class="p-3 text-bg-dark">
+	<div class="container">
+		<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+			<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+				<svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+			</a>
+			
+			<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+
+				<li><a asp-controller="Home" asp-action="Index" class="nav-link px-2 text-white">ANASAYFA</a></li>
+				<li><a href="#" class="nav-link px-2 text-white">BİZ KİMİZ?</a></li>
+				<li><a class="nav-link px-2 text-white">REFERANSLARIMIZ</a></li>
+				<li><a href="#" class="nav-link px-2 text-white">CANLI DESTEK</a></li>
+			</ul>
+
+			<div class="text-end">
+
+
+				<div class="d-none" id="login">
+					<partial name="_LoginPartial" model="new LoginViewModel()">
+				</div>
+				@if (!User.IsLogged())
+
+				{
+					<div id="welcome">
+						<partial name="_WelcomePartial">
+					</div>
+
+				}
+				else
+				{
+					var firstName = User.GetUserFirstName();
+					var lastName = User.GetUserLastName();
+					<div class="d-flex">
+
+						<div class="mt-2">
+							HOŞGELDİN @firstName @lastName
+						</div>
+						@if (User.IsAdmin())
+						{
+							<div class="ms-3">
+								<a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="btn btn-secondary">Yönetim Paneli</a>
+							</div>
+						}
+						<a asp-controller="Auth" asp-action="Logout" class="btn btn-outline-warning ms-3">Çıkış Yap</a>
+
+
+					</div>
+					<div class="btn btn-outline-success ms-3">
+						<button type="button" class="btn btn-success">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check" viewBox="0 0 16 16">
+								<path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4"></path>
+								<path d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z"></path>
+							</svg>
+						</button>
+					</div>
+				}
+
+			</div>
+		</div>
+	</div>
+</header>
+<body class="d-flex flex-column min-vh-100">
+	<div class="container">
+		@RenderBody()
+	</div>
+	<footer class="py-3 my-4">
+		<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+			<li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">ANASAYFA</a></li>
+			<li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">BİZ KİMİZ?</a></li>
+			<li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">REFERANSLARIMIZ</a></li>
+			<li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">CANLI DESTEK</a></li>
+
+		</ul>
+		<p class="text-center text-body-secondary">© 2023 ATAŞEHİR/İSTANBUL</p>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script>
+		$('#btnGirisYap').click(function () {
+			$('#login').removeClass('d-none');
+			$('#welcome').addClass('d-none');
+		})
+		$('#btnIptal').click(function () {
+			$('#login').addClass('d-none');
+			$('#welcome').removeClass('d-none');
+		})
+	</script>
+</body>
+</html>

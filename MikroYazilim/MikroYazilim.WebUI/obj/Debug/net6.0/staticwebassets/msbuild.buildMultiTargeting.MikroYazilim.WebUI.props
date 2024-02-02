@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MikroYazilim.WebUI.props" />
+</Project>

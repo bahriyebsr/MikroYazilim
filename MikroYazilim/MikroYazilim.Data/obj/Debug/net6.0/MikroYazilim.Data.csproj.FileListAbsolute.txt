@@ -1,0 +1,14 @@
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\bin\Debug\net6.0\MikroYazilim.Data.deps.json
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\bin\Debug\net6.0\MikroYazilim.Data.runtimeconfig.json
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\bin\Debug\net6.0\MikroYazilim.Data.dll
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\bin\Debug\net6.0\MikroYazilim.Data.pdb
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\obj\Debug\net6.0\MikroYazilim.Data.csproj.AssemblyReference.cache
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\obj\Debug\net6.0\MikroYazilim.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\obj\Debug\net6.0\MikroYazilim.Data.AssemblyInfoInputs.cache
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\obj\Debug\net6.0\MikroYazilim.Data.AssemblyInfo.cs
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\obj\Debug\net6.0\MikroYazilim.Data.csproj.CoreCompileInputs.cache
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\obj\Debug\net6.0\MikroYazilim.Data.dll
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\obj\Debug\net6.0\refint\MikroYazilim.Data.dll
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\obj\Debug\net6.0\MikroYazilim.Data.pdb
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\obj\Debug\net6.0\MikroYazilim.Data.genruntimeconfig.cache
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Data\obj\Debug\net6.0\ref\MikroYazilim.Data.dll

@@ -1,0 +1,15 @@
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\bin\Debug\net6.0\MikroYazilim.Business.deps.json
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\bin\Debug\net6.0\MikroYazilim.Business.dll
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\bin\Debug\net6.0\MikroYazilim.Business.pdb
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\bin\Debug\net6.0\MikroYazilim.Data.dll
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\bin\Debug\net6.0\MikroYazilim.Data.pdb
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\obj\Debug\net6.0\MikroYazilim.Business.csproj.AssemblyReference.cache
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\obj\Debug\net6.0\MikroYazilim.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\obj\Debug\net6.0\MikroYazilim.Business.AssemblyInfoInputs.cache
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\obj\Debug\net6.0\MikroYazilim.Business.AssemblyInfo.cs
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\obj\Debug\net6.0\MikroYazilim.Business.csproj.CoreCompileInputs.cache
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\obj\Debug\net6.0\MikroYazilim.Business.csproj.CopyComplete
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\obj\Debug\net6.0\MikroYazilim.Business.dll
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\obj\Debug\net6.0\refint\MikroYazilim.Business.dll
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\obj\Debug\net6.0\MikroYazilim.Business.pdb
+C:\Users\Kerem\source\repos\MikroYazilim\MikroYazilim.Business\obj\Debug\net6.0\ref\MikroYazilim.Business.dll
